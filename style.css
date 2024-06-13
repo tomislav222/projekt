@@ -1,0 +1,81 @@
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(231, 230, 230);
+    margin: 0;
+}
+
+footer{
+    background-color: rgb(202, 202, 202);
+    padding: 50px;
+}
+
+.main{
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.formCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 58px;
+    margin: 40px;
+}
+
+
+h4{
+    margin: 10px;
+}
+
+.responsiveimg{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.dis{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.category{
+    flex-basis: 1;
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.insert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
