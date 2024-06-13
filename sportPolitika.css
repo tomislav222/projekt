@@ -1,0 +1,72 @@
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(231, 230, 230);
+    margin: 0;
+}
+
+footer{
+    background-color: rgb(202, 202, 202);
+    padding: 50px;
+}
+
+.main{
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 58px;
+    margin: 40px;
+}
+
+img{
+    width: 400px;
+}
+
+.iimg{
+    width: 200px;
+}
+
+h4{
+    margin: 10px;
+}
+
+.dis{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.category{
+    flex-basis: 1;
+    width: 150px;
+}
+
+article{
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
